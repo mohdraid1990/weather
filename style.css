@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background-color: #222b64;
+    background-image: url(1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card {
+    width: 90%;
+    max-width: 450px;
+    background: rgb(25, 121, 145);
+    color: #14c750;
+    margin: 100px auto 0;
+    border-radius: 25px;
+    padding: 35px 30px;
+    text-align: center;
+}
+.search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input {
+    border: 0;
+    outline: 0;
+    background: #444745;
+    padding: 12px 23px;
+    height: 50px;
+    border-radius: 26px;
+    flex: 1;
+    margin-right: 14px;
+    font-size: 15px;
+    transition: 0.3s;
+}
+.search input:hover {
+    background-color: #a0989a;
+}
+.search button {
+    border: 0;
+    outline: 0;
+    background: #76aec2;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+}
+.search button:hover {
+    background-color:  #a0989a;
+}
+.search button img {
+    width: 15px;
+}
+.weather-icon{
+    width: 150px;
+    margin-top: 20px;
+
+}
+.weather h1 {
+    font-size: 40px;
+    font-weight: 450;
+    margin-top: 10px;
+    color: rgb(66, 51, 51);
+}
+.weather h2 {
+    font-size: 40px;
+    font-weight: 350;
+    color: #222b64;
+}
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+.col {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img {
+    width: 30px;
+    margin-right: 13px;
+}
+.col p {
+    color:  rgb(95, 57, 57);
+}
+.humidity, .wind {
+    font-size: 25px;
+    margin-top: -5px;
+}
+
+
+.clock {
+    display: flex;
+}
+.clock div {
+    margin: 5px;
+    position: relative;
+    padding-top: 20px;
+    padding-left: 5px;
+}
+.clock span {
+    width: 100px ;
+    height: 80px ;
+    background: rgb(228, 234, 238);
+    opacity: 0.6;
+    color: rgb(121, 86, 163);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgb(110, 8, 119);
+    font-family: sans-serif;
+}
+.clock .text {
+    height: 30px ;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: rgb(17, 11, 43);
+    opacity: 0.8;
+
+}
+.clock #ampm {
+    bottom: 0;
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background: rgb(40, 62, 118);
+}
